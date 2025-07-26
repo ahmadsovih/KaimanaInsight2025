@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class DashboardController extends Controller
 {
     public function showDashboard()
     {
-        return view('layouts.stacked');
+        return view('layouts.dashboard');
     }
 
     public function showPDRB()

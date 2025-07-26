@@ -1,9 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\UserController;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
@@ -22,6 +22,5 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/pdrb', [DashboardController::class, 'showPDRB'])->name('view.pdrb');
     Route::get('/kesejahteraan', [DashboardController::class, 'showKesejahteraan'])->name('view.kesejahteraan');
 });
-
 
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');

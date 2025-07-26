@@ -49,7 +49,7 @@
             <!-- Dashboard -->
             <a href="{{ route('view.dashboard') }}" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center hover:ring-2 hover:ring-blue-600">
                 <div class="mb-2">
-                    <img src="{{ asset('storage/app/public/images/dashboard.png') }}" alt="Dashboard Icon" class="mx-auto w-10 h-10">
+                    <img src="{{ asset('storage/images/dashboard.png') }}" alt="Dashboard Icon" class="mx-auto w-10 h-10">
                 </div>
                 <h3 class="text-lg font-semibold text-gray-800">Dashboard</h3>
                 <p class="text-sm text-gray-600 mt-1">Lihat ringkasan data visual Kabupaten Kaimana</p>
@@ -58,7 +58,7 @@
             <!-- PDRB -->
             <a href="{{ route('view.pdrb') }}" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center hover:ring-2 hover:ring-blue-600">
                 <div class="mb-2">
-                    <img src="{{ asset('storage/app/public/images/gdp.png') }}" alt="PDRB Icon" class="mx-auto w-10 h-10">
+                    <img src="{{ asset('storage/images/gdp.png') }}" alt="PDRB Icon" class="mx-auto w-10 h-10">
                 </div>
                 <h3 class="text-lg font-semibold text-gray-800">PDRB</h3>
                 <p class="text-sm text-gray-600 mt-1">Lihat Statistik dan Struktur Ekonomi Kabupaten Kaimana</p>
@@ -67,7 +67,7 @@
             <!-- Kesejahteraan -->
             <a href="{{ route('view.kesejahteraan') }}" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center hover:ring-2 hover:ring-blue-600">
                 <div class="mb-2">
-                    <img src="{{ asset('storage/app/public/images/capital.png') }}" alt="Kesejahteraan Icon" class="mx-auto w-10 h-10">
+                    <img src="{{ asset('storage/images/capital.png') }}" alt="Kesejahteraan Icon" class="mx-auto w-10 h-10">
                 </div>
                 <h3 class="text-lg font-semibold text-gray-800">Kesejahteraan</h3>
                 <p class="text-sm text-gray-600 mt-1">Lihat Hasil Analisis Indikator Kesejahteraan Kabupaten Kaimana</p>
@@ -76,7 +76,7 @@
             <!-- Ketenagakerjaan -->
             <a href="#" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center hover:ring-2 hover:ring-blue-600">
                 <div class="mb-2">
-                    <img src="{{ asset('storage/app/public/images/workers.png') }}" alt="Ketenagakerjaan Icon" class="mx-auto w-10 h-10">
+                    <img src="{{ asset('storage/images/workers.png') }}" alt="Ketenagakerjaan Icon" class="mx-auto w-10 h-10">
                 </div>
                 <h3 class="text-lg font-semibold text-gray-800">Ketenagakerjaan</h3>
                 <p class="text-sm text-gray-600 mt-1">Lihat Hasil Analisis Indikator Ketenagakerjaan Kabupaten Kaimana</p>

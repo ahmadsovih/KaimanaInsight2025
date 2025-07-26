@@ -12,6 +12,7 @@ class UserController extends Controller
     public function updateAccess()
     {
         $users = User::where('email', '!=', Auth::user()->email)->get();
+
         return view('layouts.update-access', compact('users'));
     }
 

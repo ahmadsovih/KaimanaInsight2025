@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use App\Models\User;
 
 class AuthController extends Controller
 {
@@ -49,8 +49,6 @@ class AuthController extends Controller
         ]);
     }
 
-
-
     // Menampilkan form registrasi
     public function showRegistrationForm()
     {
@@ -85,7 +83,6 @@ class AuthController extends Controller
             return back()->withErrors(['error' => 'Registration failed. Please try again.']);
         }
     }
-
 
     // Logout pengguna
     public function logout()

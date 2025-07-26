@@ -10,7 +10,7 @@
 
             <!-- Logo -->
             <a href="{{ route('index') }}" class="flex items-center">
-                <img src="{{ asset('storage/app/public/images/logo-bps.png') }}" class="h-10" alt="BPS Logo" />
+                <img src="{{ asset('storage/images/logo-bps.png') }}" class="h-10" alt="BPS Logo" />
             </a>
 
             <!-- Desktop Menu -->
@@ -24,7 +24,7 @@
             <!-- Profile -->
             <div class="ml-auto relative">
                 <button id="profile-dropdown" class="focus:outline-none">
-                    <img src="{{ asset('storage/app/public/images/user.png') }}" class="w-8 h-8 rounded-full" alt="Profile">
+                    <img src="{{ asset('storage/images/user.png') }}" class="w-8 h-8 rounded-full" alt="Profile">
                 </button>
                 <div id="dropdown-menu" class="hidden absolute right-0 top-full mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
                     <ul class="text-sm text-gray-700">
