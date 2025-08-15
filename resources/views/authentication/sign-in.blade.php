@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BPS Kabupaten Kaimana</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="icon" type="image/png" href="{{ asset('storage/images/logo-bps.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('logo-bps.png') }}">
 </head>
 <body>
     <!-- Menyertakan partial view untuk Toast -->
@@ -13,8 +13,8 @@
 
     <div class="flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-">
         <a href="" class="flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10">
-            <img src="{{ asset('storage/images/logo-bps.png') }}" alt="Logo BPS" class="w-full h-auto max-w-xs">
-</a>
+            <img src="{{ asset('logo-bps.png') }}" alt="Logo BPS" class="w-full h-auto max-w-xs">
+        </a>
         
 
         <!-- Card --> 
